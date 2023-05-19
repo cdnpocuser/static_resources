@@ -1,0 +1,35 @@
+{
+
+    "loan_details_page_title": "Loan Information",
+
+    "loan_details_contract_data_title" : "Contract Data",
+    "loan_details_contract_data_product":"Product/Subtype",
+    "loan_details_contract_data_standard_descriptions":"Standard terms",
+    "loan_details_contract_data_date_from":"closing date",
+    "loan_details_contract_data_date_to":"Contract end",
+    "loan_details_contract_data_credit_score":"Credit rating",
+    "loan_details_contract_data_status":"Status creditworthiness",
+    "loan_details_contract_data_remaining_time":"Remaining term",
+    "loan_details_contract_data_rate_amount":"Installment amount",
+    "loan_details_contract_data_dealer_description":"Dealer",
+    
+    "loan_details_sales_title":"Sales",
+    "loan_details_sales_balance":"Main balance",
+    "loan_details_sales_remain_balance_amount":"Remaining balances",
+    "loan_details_sales_overpayment_balance_amount":"Overpayment",
+    "loan_details_sales_total_quotas_remaining_time":"Total/residual installments",
+    "loan_details_sales_writting_off_balance_amount":"Writed balance",
+    "loan_details_sales_total_balance_amount":"Total balance",
+
+    "loan_details_contact_data_title":"Contact Details",
+    "loan_details_contact_data_communication_type":"Communication type",
+    "loan_details_contact_data_communication_medium":"Communication medium",
+    "loan_details_contact_data_full_addres":"Contact address",
+    "loan_details_contact_data_effective_date":"Last change contact address",
+    "loan_details_contact_data_returned_post_indicator":"Returned post",
+    
+    
+    "loan_details_account_holder_title":"Other stakeholders",
+    "loan_details_account_holder_full_name":"First name, Surname",
+    "loan_details_account_holder_f_number":"F number",
+    "loan_details_account_holder_date_birth_date":"Birthday"
