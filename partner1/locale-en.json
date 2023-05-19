@@ -1,0 +1,35 @@
+{
+
+    "loan_details_page_title": "Super Loan Information",
+
+    "loan_details_contract_data_title" : "Super Contract Data",
+    "loan_details_contract_data_product":"Super Product/Subtype",
+    "loan_details_contract_data_standard_descriptions":"Super Standard terms",
+    "loan_details_contract_data_date_from":"Super closing date",
+    "loan_details_contract_data_date_to":"Super Contract end",
+    "loan_details_contract_data_credit_score":"Super Credit rating",
+    "loan_details_contract_data_status":"Super Status creditworthiness",
+    "loan_details_contract_data_remaining_time":"Super Remaining term",
+    "loan_details_contract_data_rate_amount":"Super Installment amount",
+    "loan_details_contract_data_dealer_description":"Super Dealer",
+    
+    "loan_details_sales_title":"Super Sales",
+    "loan_details_sales_balance":"Super Main balance",
+    "loan_details_sales_remain_balance_amount":"Super Remaining balances",
+    "loan_details_sales_overpayment_balance_amount":"Super Overpayment",
+    "loan_details_sales_total_quotas_remaining_time":"Super Total/residual installments",
+    "loan_details_sales_writting_off_balance_amount":"Super Writed balance",
+    "loan_details_sales_total_balance_amount":"Super Total balance",
+
+    "loan_details_contact_data_title":"Super Contact Details",
+    "loan_details_contact_data_communication_type":"Super Communication type",
+    "loan_details_contact_data_communication_medium":"Super Communication medium",
+    "loan_details_contact_data_full_addres":"Super Contact address",
+    "loan_details_contact_data_effective_date":"Super Last change contact address",
+    "loan_details_contact_data_returned_post_indicator":"Super Returned post",
+    
+    
+    "loan_details_account_holder_title":"Super Other stakeholders",
+    "loan_details_account_holder_full_name":"Super First name, Surname",
+    "loan_details_account_holder_f_number":"Super F number",
+    "loan_details_account_holder_date_birth_date":"Super Birthday"  
