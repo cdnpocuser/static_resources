@@ -1,0 +1,36 @@
+{
+    "loan_details_page_title": "Super Información del préstamo",
+
+    "loan_details_contract_data_title": "Super Datos del contrato",
+    "loan_details_contract_data_product":"Super Producto/Subtipo",
+    "loan_details_contract_data_standard_descriptions":"TSuper érminos estándar",
+    "loan_details_contract_data_date_from":"Super Fecha de cierre",
+    "loan_details_contract_data_date_to":"Super Terminación del contrato",
+    "loan_details_contract_data_credit_score":"Super Calificación crediticia",
+    "loan_details_contract_data_status":"Super Estado de solvencia",
+    "loan_details_contract_data_remaining_time":"Super Término restante",
+    "loan_details_contract_data_rate_amount":"Super Importe de la cuota",
+    "loan_details_contract_data_dealer_description":"Super Distribuidor",
+    
+    "loan_details_sales_title":"Super Ventas",
+    "loan_details_sales_balance":"Super Saldo principal",
+    "loan_details_sales_remain_balance_amount":"Super Saldos restantes",
+    "loan_details_sales_overpayment_balance_amount":"Super Sobrepago",
+    "loan_details_sales_total_quotas_remaining_time":"Super Cuotas totales/residuales",
+    "loan_details_sales_writting_off_balance_amount":"Super Saldo escrito",
+    "loan_details_sales_total_balance_amount":"Super Saldo total",
+
+    "loan_details_contact_data_title":"Super Detalles de contacto",
+    "loan_details_contact_data_communication_type":"Super Tipo de comunicación",
+    "loan_details_contact_data_communication_medium":"Super Medio de comunicación",
+    "loan_details_contact_data_full_addres":"Super Dirección de contacto",
+    "loan_details_contact_data_effect_date":"Super Último cambio de dirección de contacto",
+    "loan_details_contact_data_returned_post_indicator":"Super Publicación devuelta",
+    
+    
+    "loan_details_account_holder_title":"Super Otras partes interesadas",
+    "loan_details_account_holder_full_name":"Super Nombre, Apellido",
+    "loan_details_account_holder_f_number":"Super Número F",
+    "loan_details_account_holder_date_birth_date":"Super Fecha nacimiento"
+
+}
