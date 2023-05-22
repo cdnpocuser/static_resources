@@ -1,0 +1,53 @@
+{
+    "loan_summary_title": "Kredite (MFE React)",
+    "loan_summary_loan_amount": "Anzahl Kredite",
+    "loan_summary_total_balance": "Gesamtsaldo",
+
+    "loan_summary_element_subtype":"Subtype",
+    "loan_summary_element_iban": "IBAN",
+    "loan_summary_element_credit": "Bonität",
+    "loan_summary_element_settlement_date":"Fälligkeit",
+    "loan_summary_element_remaining_time":"Restlaufzeit",
+    "loan_summary_element_balance":"Saldo",
+    "loan_summary_element_rate":"Rate",
+    "loan_summary_element_interest_rate":"Zinssatz",
+    "loan_summary_element_month_singular":"Monat",
+    "loan_summary_element_month_plural":"Monate",
+    
+    "loan_details_page_title": "Kreditinformation",
+    "loan_details_page_back": "Züruck",
+
+    "loan_details_back_button_text": "Züruck",
+
+    "loan_details_contract_data_title": "Vertragsdaten",
+    "loan_details_contract_data_product":"Produkt/Subtyp",
+    "loan_details_contract_data_standard_descriptions":"Standardkonditionen",
+    "loan_details_contract_data_date_from":"Abschlussdatum",
+    "loan_details_contract_data_date_to":"Vertragsende",
+    "loan_details_contract_data_credit_score":"Bonität",
+    "loan_details_contract_data_status":"Status Bonität",
+    "loan_details_contract_data_remaining_time":"Restlaufzeit",
+    "loan_details_contract_data_rate_amount":"Ratenhöhe",
+    "loan_details_contract_data_dealer_description":"Händler",
+    
+    "loan_details_sales_title":"Umsätze",
+    "loan_details_sales_balance":"Hauptsaldo",
+    "loan_details_sales_remain_balance_amount":"Rückstände",
+    "loan_details_sales_overpayment_balance_amount":"Überzahlung",
+    "loan_details_sales_total_quotas_remaining_time":"Gesamt-/Restraten",
+    "loan_details_sales_writting_off_balance_amount":"Abgeschriebener Saldo",
+    "loan_details_sales_total_balance_amount":"Gesamtsaldo",
+
+    "loan_details_contact_data_title":"Kontaktdaten",
+    "loan_details_contact_data_communication_type":"Kommunikationsart",
+    "loan_details_contact_data_communication_medium":"Kommunikationsmedium",
+    "loan_details_contact_data_full_addres":"Kontaktadresse",
+    "loan_details_contact_data_effective_date":"letzte Änderung Kontaktadresse",
+    "loan_details_contact_data_returned_post_indicator":"Postrückläufer",
+    
+    
+    "loan_details_account_holder_title":"Weitere Beteiligte",
+    "loan_details_account_holder_full_name":"Vorname, Name",
+    "loan_details_account_holder_f_number":"F-Nummer",
+    "loan_details_account_holder_date_birth_date":"Geburtstag"
+}
