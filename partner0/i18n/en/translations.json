@@ -1,6 +1,23 @@
 {
+    "loan_summary_title": "Loans (MFE React)",
+    "loan_summary_loan_amount": "Amount of Loans",
+    "loan_summary_total_balance": "Total balance",
+
+    "loan_summary_element_subtype":"Subtype",
+    "loan_summary_element_iban": "IBAN",
+    "loan_summary_element_credit": "Credit",
+    "loan_summary_element_settlement_date":"Settlement Date",
+    "loan_summary_element_remaining_time":"Remaining Time",
+    "loan_summary_element_balance": "Balance",
+    "loan_summary_element_rate":"Rate",
+    "loan_summary_element_interest_rate":"Interest Rate",
+    "loan_summary_element_month_singular":"Month",
+    "loan_summary_element_month_plural":"Months",
 
     "loan_details_page_title": "Loan Information",
+    "loan_details_page_back": "Back",
+
+    "loan_details_back_button_text": "Return",
 
     "loan_details_contract_data_title" : "Contract Data",
     "loan_details_contract_data_product":"Product/Subtype",
@@ -33,3 +50,4 @@
     "loan_details_account_holder_full_name":"First name, Surname",
     "loan_details_account_holder_f_number":"F number",
     "loan_details_account_holder_date_birth_date":"Birthday"
+}
