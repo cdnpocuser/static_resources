@@ -1,5 +1,23 @@
 {
+    "loan_summary_title": "Préstamos (MFE React)",
+    "loan_summary_loan_amount": "Número de créditos",
+    "loan_summary_total_balance": "Balance total",
+
+    "loan_summary_element_subtype":"Subtipo",
+    "loan_summary_element_iban": "IBAN",
+    "loan_summary_element_credit": "Crédito",
+    "loan_summary_element_settlement_date":"Fecha de Liquidación",
+    "loan_summary_element_remaining_time":"Tiempo Restante",
+    "loan_summary_element_balance": "Balance",
+    "loan_summary_element_rate":"Tasa",
+    "loan_summary_element_interest_rate":"Tasa de interés",
+    "loan_summary_element_month_singular":"Mes",
+    "loan_summary_element_month_plural":"Meses",
+
     "loan_details_page_title": "Información del préstamo",
+    "loan_details_page_back": "Volver",
+
+    "loan_details_back_button_text": "Volver",
 
     "loan_details_contract_data_title": "Datos del contrato",
     "loan_details_contract_data_product":"Producto/Subtipo",
@@ -32,5 +50,4 @@
     "loan_details_account_holder_full_name":"Nombre, Apellido",
     "loan_details_account_holder_f_number":"Número F",
     "loan_details_account_holder_date_birth_date":"Fecha nacimiento"
-
 }
