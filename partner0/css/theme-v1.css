@@ -1,0 +1,119 @@
+#gcv-loansmfe-theme-provider{
+  --gcv-color-primary: #9e3667;
+	--gcv-color-primary-rgb: rgba(158, 54, 103, 0);
+	--gcv-color-primary-contrast: #ffffff;
+	--gcv-color-primary-contrast-rgb: rgba(255, 255, 255, 0);
+	--gcv-color-primary-shade: #8b305b;
+	--gcv-color-primary-tint: #a84a76;
+
+	--gcv-color-secondary: #137e84;
+	--gcv-color-secondary-rgb: 19,126,132;
+	--gcv-color-secondary-contrast: #ffffff;
+	--gcv-color-secondary-contrast-rgb: 255,255,255;
+	--gcv-color-secondary-shade: #116f74;
+	--gcv-color-secondary-tint: #2b8b90;
+
+	--gcv-color-tertiary: #73c3d3;
+	--gcv-color-tertiary-rgb: 115,195,211;
+	--gcv-color-tertiary-contrast: #000000;
+	--gcv-color-tertiary-contrast-rgb: 0,0,0;
+	--gcv-color-tertiary-shade: #65acba;
+	--gcv-color-tertiary-tint: #81c9d7;
+
+	--gcv-color-success: #63ba68;
+	--gcv-color-success-rgb: 99,186,104;
+	--gcv-color-success-contrast: #000000;
+	--gcv-color-success-contrast-rgb: 0,0,0;
+	--gcv-color-success-shade: #57a45c;
+	--gcv-color-success-tint: #73c177;
+
+	--gcv-color-warning: #f8cd55;
+	--gcv-color-warning-rgb: 248,205,85;
+	--gcv-color-warning-contrast: #000000;
+	--gcv-color-warning-contrast-rgb: 0,0,0;
+	--gcv-color-warning-shade: #dab44b;
+	--gcv-color-warning-tint: #f9d266;
+
+	--gcv-color-danger: #8c1a11;
+	--gcv-color-danger-rgb: 140,26,17;
+	--gcv-color-danger-contrast: #ffffff;
+	--gcv-color-danger-contrast-rgb: 255,255,255;
+	--gcv-color-danger-shade: #7b170f;
+	--gcv-color-danger-tint: #983129;
+
+	--gcv-color-medium: #92949c;
+	--gcv-color-medium-rgb: 146,148,156;
+	--gcv-color-medium-contrast: #000000;
+	--gcv-color-medium-contrast-rgb: 0,0,0;
+	--gcv-color-medium-shade: #808289;
+	--gcv-color-medium-tint: #9d9fa6;
+
+	--gcv-color-background: #f4f5f8;
+	--gcv-color-background-rgb: 244,245,248;
+	--gcv-color-background-contrast: #000000;
+	--gcv-color-background-contrast-rgb: 0,0,0;
+	--gcv-color-background-shade: #d7d8da;
+	--gcv-color-background-tint: #f5f6f9;
+  
+  background-color: var(--gcv-color-background);
+}
+
+#gcv-loansmfe-theme-provider.dark{
+  --gcv-color-primary: #9419e6;
+	--gcv-color-primary-rgb: 148,25,230;
+	--gcv-color-primary-contrast: #ffffff;
+	--gcv-color-primary-contrast-rgb: 255,255,255;
+	--gcv-color-primary-shade: #8216ca;
+	--gcv-color-primary-tint: #9f30e9;
+
+	--gcv-color-secondary: #137e84;
+	--gcv-color-secondary-rgb: 19,126,132;
+	--gcv-color-secondary-contrast: #ffffff;
+	--gcv-color-secondary-contrast-rgb: 255,255,255;
+	--gcv-color-secondary-shade: #116f74;
+	--gcv-color-secondary-tint: #2b8b90;
+
+	--gcv-color-tertiary: #73c3d3;
+	--gcv-color-tertiary-rgb: 115,195,211;
+	--gcv-color-tertiary-contrast: #000000;
+	--gcv-color-tertiary-contrast-rgb: 0,0,0;
+	--gcv-color-tertiary-shade: #65acba;
+	--gcv-color-tertiary-tint: #81c9d7;
+
+	--gcv-color-success: #66cc8a;
+	--gcv-color-success-rgb: 102,204,138;
+	--gcv-color-success-contrast: #000000;
+	--gcv-color-success-contrast-rgb: 0,0,0;
+	--gcv-color-success-shade: #5ab479;
+	--gcv-color-success-tint: #75d196;
+
+	--gcv-color-warning: #F3CC30;
+	--gcv-color-warning-rgb: 243,204,48;
+	--gcv-color-warning-contrast: #000000;
+	--gcv-color-warning-contrast-rgb: 0,0,0;
+	--gcv-color-warning-shade: #d6b42a;
+	--gcv-color-warning-tint: #f4d145;
+
+	--gcv-color-danger: #8c1a11;
+	--gcv-color-danger-rgb: 140,26,17;
+	--gcv-color-danger-contrast: #ffffff;
+	--gcv-color-danger-contrast-rgb: 255,255,255;
+	--gcv-color-danger-shade: #7b170f;
+	--gcv-color-danger-tint: #983129;
+
+	--gcv-color-medium: #989aa2;
+	--gcv-color-medium-rgb: 152,154,162;
+	--gcv-color-medium-contrast: #000000;
+	--gcv-color-medium-contrast-rgb: 0,0,0;
+	--gcv-color-medium-shade: #86888f;
+	--gcv-color-medium-tint: #a2a4ab;
+
+	--gcv-color-background: #2A303D;
+	--gcv-color-background-rgb: 42,48,61;
+	--gcv-color-background-contrast: #ffffff;
+	--gcv-color-background-contrast-rgb: 255,255,255;
+	--gcv-color-background-shade: #252a36;
+	--gcv-color-background-tint: #3f4550;
+
+  background-color: var(--gcv-color-background);
+}
