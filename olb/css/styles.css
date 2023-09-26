@@ -1,0 +1,24 @@
+.BannerLoginTitle { 
+  color: orange; 
+  font-weight: bold; 
+} 
+
+.BannerLoginText { 
+  color: black; 
+  font-weight: bold; 
+} 
+
+.BannerLoginLink { 
+  color: blue; 
+  font-weight: bold; 
+} 
+
+.BannerLink { 
+  color: green; 
+  font-weight: bold; 
+} 
+
+.BannerImage { 
+  color: red; 
+  font-weight: bold; 
+} 
