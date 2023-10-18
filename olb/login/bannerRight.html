@@ -78,6 +78,31 @@
       margin-left: 5px;
     }
   </style>
+
+  <script>
+    const handlerFeedback = () => {
+      const event = {
+        name: 'interstitials_feedback_btn',
+        payload: {
+          url: 'https://example.com/test/1'
+        }
+      }
+
+      // Origen de la ventana o iframe (dominio donde esta desplegado)
+      // const targetOrigin = "https://meine-santander.scger.pre.corp";     OPTION 1
+      // const targetOrigin = windows.location;                             OPTION 2
+      const targetOrigin = "*"; // Para pruebas este wildcard deberia funcionar
+
+      // https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage
+      window.parent.postMessage(JSON.stringify(event))
+      // window.parent.postMessage(JSON.stringify(event), targetOrigin)
+
+      const newTab = window.open('https://santander.de/hotlines', '_blank');
+      if (newTab) {
+        newTab.focus();
+      }
+    }
+  </script>
 </head>
 
 <body>
