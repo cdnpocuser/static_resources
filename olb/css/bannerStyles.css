@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'SantanderMicroTextW05-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/cdnpocuser/static_resources@main/olb/assets/font/SantanderMicroTextW05-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SantanderMicroTextW05-Rg';
+  src: url('https://cdn.jsdelivr.net/gh/cdnpocuser/static_resources@main/olb/assets/font/SantanderMicroTextW05-Rg.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.bannerTitle {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "SantanderMicroTextW05-Bold", "Arial", "sans-serif";
+  font-weight: bold;
+  color: rgba(68, 68, 68, 1);
+  margin: 0;
+}
+
+.bannerSubtitle {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "SantanderMicroTextW05-Bold", "Arial", "sans-serif";
+  font-weight: bold;
+  color: rgba(118, 118, 118, 1);
+  margin: 10px 0 0 0;
+}
+
+.bannerText {
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: "SantanderMicroTextW05-Rg", "Arial", "sans-serif";
+  font-weight: normal;
+  color: rgba(118, 118, 118, 1);
+  margin: 8px 0 0 0;
+}
+
+.bannerText a {
+  color: rgba(158, 54, 103, 1);
+  text-decoration: none;
+}
+
+a.bannerLink {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "SantanderMicroTextW05-Bold", "Arial", "sans-serif";
+  font-weight: bold;
+  position: relative;
+  top: 10px;
+  font-size: 14px !important;
+
+  margin: 0px;
+  color: rgba(158, 54, 103, 1);
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.2s ease-out 0s;
+}
+
+a.bannerLink svg {
+  vertical-align: middle;
+  cursor: pointer;
+  margin-left: 5px;
+}
