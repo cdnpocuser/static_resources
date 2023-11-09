@@ -71,8 +71,27 @@
   	  font-weight: bold;
 	  color:red;
 	  background-color: white;
-	  height:60px;
+	  height:110px;
 	  width:750px;
+	}
+	
+	.close-icon{	
+	  position: absolute;
+      top: 10px;
+      right: 10px;	
+  	  display:block;
+	  box-sizing:border-box;
+	  width:50px;
+	  height:50px;
+	  border-width:3px;
+	  border-style: solid;
+	  border-color:red;
+	  border-radius:100%;
+	  background: -webkit-linear-gradient(-45deg, transparent 0%, transparent 46%, white 46%,  white 56%,transparent 56%, transparent 100%), -webkit-linear-gradient(45deg, transparent 0%, transparent 46%, white 46%,  white 56%,transparent 56%, transparent 100%);
+	  background-color:red;
+	  box-shadow:0px 0px 5px 2px rgba(0,0,0,0.5);
+	  transition: all 0.3s ease;
+	  cursor:pointer;
 	}
     	
   </style>
@@ -82,7 +101,7 @@
 <body class="rafaNadal">
   <button class="button buttonOK" onclick="handlerFeedback(true)">More information</button>
   <button class="button buttonKO" onclick="handlerFeedback(false)">NOT interested</button>
-  <div class = "text">Keep Yourself Cyber Safe with Santander!</div>
-  
+  <button class="close-icon" onclick="handlerFeedback(false)"/>
+  <div class = "text">Keep Yourself Cyber Safe with Santander!</div>  
 </body>
 </html>
