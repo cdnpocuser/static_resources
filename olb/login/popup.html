@@ -6,29 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cdnpocuser/static_resources@main/olb/css/bannerStyles.css">
   <script>
-    const handlerFeedback = (redirect) => {
-      const event = {
-        name: 'interstitials_feedback_btn',
+	  
+    const handlerFeedback = (url, feedback) => {
+      let event = {
+        name: 'popupBeforeLogin',
         payload: {
-          url: 'https://example.com/test/1'
+          url: url,
+	  feedback: feedback
         }
       }
-
-      // Origen de la ventana o iframe (dominio donde esta desplegado)
-      // const targetOrigin = "https://meine-santander.scger.pre.corp";     OPTION 1
-      // const targetOrigin = windows.location;                             OPTION 2
-      const targetOrigin = "*"; // Para pruebas este wildcard deberia funcionar
-
+      
       // https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage
       window.parent.postMessage(JSON.stringify(event))
+      
+      // const targetOrigin = "*"; // Para pruebas este wildcard deberia funcionar
       // window.parent.postMessage(JSON.stringify(event), targetOrigin)
 
-      if (redirect) {
-	    const newTab = window.open('https://santander.de/hotlines', '_blank');
-        if (newTab) {
-          newTab.focus();
-        }
-	  } 
     }
   </script>
   
@@ -96,7 +89,7 @@
   
 </head>
 <body class="backgroundImage">
-  <button class="button buttonOK" onclick="handlerFeedback(true)">More information</button>
-  <button class="button buttonKO" onclick="handlerFeedback(false)">NOT interested</button>
+  <button class="button buttonOK" onclick="handlerFeedback('wwww.as.com', 'INTERESTED')">More information</button>
+  <button class="button buttonKO" onclick="handlerFeedback('', 'REJECTED')">NOT interested</button>
 </body>
 </html>
