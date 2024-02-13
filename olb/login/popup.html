@@ -9,7 +9,7 @@
 	  
     const handlerFeedback = (url, feedback) => {
       let event = {
-        name: 'popupBeforeLogin',
+        name: 'interstitials_feedback_btn',
         payload: {
           url: url,
 	  feedback: feedback
@@ -89,7 +89,7 @@
   
 </head>
 <body class="backgroundImage">
-  <button class="button buttonOK" onclick="handlerFeedback('wwww.as.com', 'INTERESTED')">More information</button>
+  <button class="button buttonOK" onclick="handlerFeedback('https://www.santander.de/privatkunden/service-kontakt/kontakt/?sectionName=akkordeon&sectionId=11426', 'INTERESTED')">More information</button>
   <button class="button buttonKO" onclick="handlerFeedback('', 'REJECTED')">NOT interested</button>
 </body>
 </html>
