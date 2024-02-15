@@ -22,6 +22,13 @@
       // const targetOrigin = "*"; // Para pruebas este wildcard deberia funcionar
       // window.parent.postMessage(JSON.stringify(event), targetOrigin)
 
+      // TO BE REMOVED
+       if (url) {
+	    const newTab = window.open(url, '_blank');
+        if (newTab) {
+          newTab.focus();
+        }
+      } 
     }
   </script>
   
@@ -89,7 +96,7 @@
   
 </head>
 <body class="backgroundImage">
-  <button class="button buttonOK" onclick="handlerFeedback('https://www.santander.de/privatkunden/service-kontakt/kontakt/?sectionName=akkordeon&sectionId=11426', 'INTERESTED')">More information</button>
-  <button class="button buttonKO" onclick="handlerFeedback('', 'REJECTED')">NOT interested</button>
+  <button class="button buttonOK" onclick="handlerFeedback('https://santander.de/hotlines', 'INTERESTED')">Mehr Informationen</button>
+  <button class="button buttonKO" onclick="handlerFeedback('', 'REJECTED')">Nicht interessiert</button>
 </body>
 </html>
