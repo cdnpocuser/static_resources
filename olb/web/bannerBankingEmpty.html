@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi prueba</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cdnpocuser/static_resources@main/olb/css/bannerStyles.css">
+  <script>
+    const handlerFeedback = () => {
+      const event = {
+        name: 'interstitials_feedback_btn',
+        payload: {
+          url: 'https://example.com/test/1'
+        }
+      }
+
+      // Origen de la ventana o iframe (dominio donde esta desplegado)
+      // const targetOrigin = "https://meine-santander.scger.pre.corp";     OPTION 1
+      // const targetOrigin = windows.location;                             OPTION 2
+      const targetOrigin = "*"; // Para pruebas este wildcard deberia funcionar
+
+      // https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage
+      window.parent.postMessage(JSON.stringify(event))
+      // window.parent.postMessage(JSON.stringify(event), targetOrigin)
+
+      const newTab = window.open('https://www.santander.de/privatkunden/service-kontakt/information/sicherheit/onlinesicherheit/', '_blank');
+      if (newTab) {
+        newTab.focus();
+      }
+
+     // https://meine-santander-sbg-online-banking-front-app-dev.apps.scg01.scg.dev.bo2.paas.cloudcenter.corp/olb/?code=qvxVlK&transactionId=134d7555-15a3-4bf2-8b32-bdd8dad311ec#/gmk/saving-account-application/enter-details
+      
+    }
+  </script>
+</head>
+
+<body>
+  <div>
+    <h2 class="bannerTitle">Jetzt Tagesgeld anlegen und attraktive Zinsen sichern!</h2>
+    <li class="bannerText">Monatliche Zinszahlung</li>
+    <li class="bannerText">Flexibel verfügen</li>
+    <li class="bannerText">Bequem <a target="_blank" href="/gmk/saving-account-application/enter-details">hier</a> online abschließbar</li>    
+</body>
+
+</html>
