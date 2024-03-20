@@ -6,28 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mi prueba</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cdnpocuser/static_resources@main/olb/css/bannerStyles.css">
-  <script>
-    const handlerFeedback = () => {
-      const event = {
+  <script>	  
+    const handlerFeedback = (url, feedback) => {
+      let event = {
         name: 'interstitials_feedback_btn',
         payload: {
-          url: 'https://example.com/test/1'
+          url: url,
+	  feedback: feedback
         }
       }
-
-      // Origen de la ventana o iframe (dominio donde esta desplegado)
-      // const targetOrigin = "https://meine-santander.scger.pre.corp";     OPTION 1
-      // const targetOrigin = windows.location;                             OPTION 2
-      const targetOrigin = "*"; // Para pruebas este wildcard deberia funcionar
-
-      // https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage
-      window.parent.postMessage(JSON.stringify(event))
-      // window.parent.postMessage(JSON.stringify(event), targetOrigin)
-
-      const newTab = window.open('https://www.santander.de/privatkunden/service-kontakt/information/sicherheit/onlinesicherheit/', '_blank');
-      if (newTab) {
-        newTab.focus();
-      }
+      event.stopPropagation();	    
+      window.parent.postMessage(JSON.stringify(event))	    
     }
   </script>
 </head>
