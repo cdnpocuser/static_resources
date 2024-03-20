@@ -82,8 +82,8 @@
    
   
 </head>
-<body class="backgroundImage">
-  <button class="button buttonOK" onclick="handlerFeedback('https://www.santander.com/en/press-room/press-releases/2023/07/q2-2023-santander-bank-results', 'INTERESTED')">Mehr Informationen</button>
-  <button class="button buttonKO" onclick="handlerFeedback('', 'REJECTED')">Nicht interessiert</button>
+<body class="backgroundImage">	
+  <button class="button buttonOK" onclick="(e) => handlerFeedback(e,'https://www.santander.com/en/press-room/press-releases/2023/07/q2-2023-santander-bank-results','IMPRESSION')">Mehr Informationen</button>
+  <button class="button buttonKO" onclick="(e) => handlerFeedback(e,'','DISSMISAL')">Nicht interessiert</button>
 </body>
 </html>
