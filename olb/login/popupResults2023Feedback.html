@@ -5,8 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cdnpocuser/static_resources@main/olb/css/bannerStyles.css">
-  <script>
-	  
+  <script>	  
     const handlerFeedback = (url, feedback) => {
       let event = {
         name: 'interstitials_feedback_btn',
@@ -15,20 +14,8 @@
 	  feedback: feedback
         }
       }
-      
-      // https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage
-      window.parent.postMessage(JSON.stringify(event))
-      
-      // const targetOrigin = "*"; // Para pruebas este wildcard deberia funcionar
-      // window.parent.postMessage(JSON.stringify(event), targetOrigin)
-
-      // TO BE REMOVED
-       if (url) {
-	    const newTab = window.open(url, '_blank');
-        if (newTab) {
-          newTab.focus();
-        }
-      } 
+      event.stopPropagation();	    
+      window.parent.postMessage(JSON.stringify(event))	    
     }
   </script>
   
