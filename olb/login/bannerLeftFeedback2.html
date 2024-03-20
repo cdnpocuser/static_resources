@@ -7,7 +7,7 @@
   <title>Mi prueba</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cdnpocuser/static_resources@main/olb/css/bannerStyles.css">
   <script>	  
-    const handlerFeedback = (url, feedback) => {
+    const handlerFeedback = (e, url, feedback) => {
       let event = {
         name: 'interstitials_feedback_btn',
         payload: {
@@ -15,7 +15,7 @@
 	  feedback: feedback
         }
       }
-      event.stopPropagation();	    
+      e.stopPropagation();	    
       window.parent.postMessage(JSON.stringify(event))	    
     }
   </script>
