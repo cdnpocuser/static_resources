@@ -6,14 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cdnpocuser/static_resources@main/olb/css/bannerStyles.css">
   <script>
-    const handlerFeedback = () => {
-      const event = {
+    const handlerFeedback = (url, feedback) => {
+      let event = {
         name: 'interstitials_feedback_btn',
         payload: {
-          url: 'https://www.santander.de/privatkunden/kredite-finanzierung/fahrzeugfinanzierung/unsere-produkte-im-handel/'
+          url: url,
+	  feedback: feedback
         }
-      }
-      window.parent.postMessage(JSON.stringify(event))      
+      }      
+      window.parent.postMessage(JSON.stringify(event)) 
     }
   </script>
     
@@ -80,6 +81,6 @@
   
 </head>
 <body class="backgroundImage">
-  <button class="button buttonOK" onclick="handlerFeedback()">Mehr Informationen</button>
+  <button class="button buttonOK" onclick="handlerFeedback('https://www.santander.de/privatkunden/kredite-finanzierung/fahrzeugfinanzierung/unsere-produkte-im-handel/','IMPRESSION')">Mehr Informationen</button>
 </body>
 </html>
