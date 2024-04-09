@@ -6,14 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cdnpocuser/static_resources@main/olb/css/bannerStyles.css">
   <script>
-    const handlerFeedback = (redirect) => {
-      const event = {
+    const handlerFeedback = (url, feedback) => {
+      let event = {
         name: 'interstitials_feedback_btn',
         payload: {
-          url: 'https://popupsmart.com/blog/dynamic-content'
+          url: url,
+	  feedback: feedback
         }
-      }
-      window.parent.postMessage(JSON.stringify(event))      
+      }      
+      window.parent.postMessage(JSON.stringify(event)) 
     }
   </script>
   
@@ -72,7 +73,7 @@
   
 </head>
 <body class="imageBackground">
-  <button class="button buttonOK" onclick="handlerFeedback(true)">More information</button>
-  <button class="button buttonKO" onclick="handlerFeedback(false)">NOT interested</button>
+  <button class="button buttonOK" onclick="handlerFeedback('https://popupsmart.com/blog/dynamic-content','IMPRESSION')">More information</button>
+  <button class="button buttonKO" onclick="handlerFeedback('','DISSMISAL')">NOT interested</button>
 </body>
 </html>
