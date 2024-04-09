@@ -5,8 +5,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cdnpocuser/static_resources@main/olb/css/bannerStyles.css">
-  <script type = "text/javascript" src="https://olbcdn.b-cdn.net/olb/js/functions.js"></script>  
-
+  <script>
+    const handlerFeedback = (redirect) => {
+      const event = {
+        name: 'popupBanking',
+        payload: {
+          url: 'https://popupsmart.com/blog/dynamic-content'
+        }
+      }
+      window.parent.postMessage(JSON.stringify(event))      
+    }
+  </script>
     
    <style type="text/css">
    
