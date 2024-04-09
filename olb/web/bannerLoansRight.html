@@ -6,9 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cdnpocuser/static_resources@main/olb/css/bannerStyles.css">
   <script>
-    const handlerFeedback = (redirect) => {
+    const handlerFeedback = () => {
       const event = {
-        name: 'popupBanking',
+        name: 'interstitials_feedback_btn',
         payload: {
           url: 'https://www.santander.de/privatkunden/kredite-finanzierung/fahrzeugfinanzierung/unsere-produkte-im-handel/'
         }
@@ -80,6 +80,6 @@
   
 </head>
 <body class="backgroundImage">
-  <button class="button buttonOK" onclick="handlerFeedback('https://santander.de/hotlines', 'INTERESTED')">Mehr Informationen</button>
+  <button class="button buttonOK" onclick="handlerFeedback()">Mehr Informationen</button>
 </body>
 </html>
